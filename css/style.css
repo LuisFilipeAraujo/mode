@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 1.6rem;
+    font-family: 'Courgette', cursive;
+}
+
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.main img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 20px white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 10px 20px 10px 20px; */
+    margin-left: 20px;
+    border-radius: 0px;
+}
+
+.menu li a:hover {
+    border-radius: 10px;
+    display: block;
+    background-color: rgba(251, 251, 251, 0.436);
+    margin-left: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+    padding: 0px;
+    margin: 20px;
+}
+
+h2 {
+    color: white;
+    padding: 0px;
+    margin: 20px;
+}
+
+p {
+    color: white;
+    padding: 0px;
+    margin: 20px;
+    
+}
+.nome p{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.conteudo {
+    text-align: center;
+
+}
+
+/* CLASSE SUSTENTAVEL */
+.sustentavel {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.sustentavel img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.sustentavel .textos {
+    display: inline-block;
+    width: 60%;
+}
+
+.sustentavel h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+/* CLASSE AUTOESTIMA */
+.autoestima {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.autoestima img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+.autoestima .textos {
+    display: inline-block;
+    width: 60%;
+}
+
+.autoestima h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* CLASSE ETICA */
+.etica {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.etica img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+.etica .textos {
+    display: inline-block;
+    width: 60%;
+}
+
+.etica h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+/* CLASSE DURABILIDADE */
+.durabilidade {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.durabilidade img {
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.durabilidade .textos {
+    display: inline-block;
+    width: 60%;
+}
+
+.durabilidade h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .produtos {
+    text-align: left;
+    margin-right: 50%;
+} */
+
+footer{
+    color: white;
+    font-size: 12px;
+    width:100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 20px white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;  
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+table{
+    color:white;
+    border-style:none;
+
+}
+
+.cssbutton{
+    height:40px;
+    width:300px;
+    background-color: rgb(19, 2, 2);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: rgb(5, 5, 33);
+    }
+    .logo img {
+        width: 80px;
+    }
+
+    #nome {
+        font-size: 14px;
+    }
+
+    .menu li {
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(31, 7, 7);
+    }
+    .logo img {
+        width: 70px;
+    }
+
+    #nome {
+        font-size: 13px;
+    }
+
+    .menu li {
+        margin: 0 8px;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .email{
+    text-align: center;
+} */
+
+.frase{
+    text-align: center;
+}
+
+/* .croquisPortfolio{
+
+} */
+/* td{
+    width:300px;
+    text-align:justufy;
+    vertical-align:middle;
+    padding-left:20px;
+    }
+    */
