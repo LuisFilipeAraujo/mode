@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-image: linear-gradient(to right, rgb(4, 50, 4), rgb(190, 138, 86));
     font-size: 1.6rem;
     font-family: 'Courgette', cursive;
 }
